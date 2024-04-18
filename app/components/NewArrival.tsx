@@ -49,8 +49,8 @@ function NewArrival() {
         {products.length < 1 ? (
                   <div className=" flex justify-center items-center col-span-full h-[200px] w-[200px]">
                       
-                      
-        //@ts-ignore
+
+        {/* //@ts-ignore */}
             <l-square
               size="35"
               stroke="5"
