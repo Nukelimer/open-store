@@ -21,10 +21,10 @@ function NewArrival() {
   const [products, setProducts] = useState<Product[]>([]);
 
   useEffect(() => {
-    setTimeout(() => {
       const initialProducts = [...product];
       setProducts(initialProducts);
-    }, 9000);
+    // setTimeout(() => {
+    // }, 9000);
   }, []);
 
   return (
