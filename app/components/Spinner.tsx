@@ -3,11 +3,6 @@ import { square } from 'ldrs'
 
 
 
-declare namespace JSX {
-    interface IntrinsicElements {
-      "l-square": any;
-    }
-  }
   
 function Spinner() {
 
