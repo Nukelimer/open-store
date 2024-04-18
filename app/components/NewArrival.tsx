@@ -8,7 +8,8 @@ import { useEffect, useState } from "react";
 
 
 import { product } from "../../utils/files";
-import Spinner from "./Spinner";
+import Loader from "./Spinner";
+
 
 interface Product {
   id: string;
@@ -49,7 +50,7 @@ function NewArrival() {
       <div className=" pt-8  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {products.length < 1 ? (
           <div className=" flex justify-center items-center col-span-full h-[200px] w-[200px]">
-          <Spinner/>
+          <Loader/>
           </div>
         ) : (
           products?.map((item) => {
