@@ -5,9 +5,10 @@ import StraightDivider from "./StraightDivider";
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { square } from "ldrs";
+
 
 import { product } from "../../utils/files";
+import Spinner from "./Spinner";
 
 interface Product {
   id: string;
@@ -25,7 +26,7 @@ function NewArrival() {
       setProducts(initialProducts);
     }, 9000);
   }, []);
-  square.register();
+
   return (
     <section className=" bg-secondary flex flex-col items-center justify-center  pt-8 pb-4">
       <div className="">
@@ -47,17 +48,8 @@ function NewArrival() {
 
       <div className=" pt-8  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {products.length < 1 ? (
-                  <div className=" flex justify-center items-center col-span-full h-[200px] w-[200px]">
-                      
-
-        {/* //@ts-ignore */}
-            <l-square
-              size="35"
-              stroke="5"
-              stroke-length="0.25"
-              bg-opacity="0.1"
-              speed="1.2"
-              color="black"></l-square>
+          <div className=" flex justify-center items-center col-span-full h-[200px] w-[200px]">
+          <Spinner/>
           </div>
         ) : (
           products?.map((item) => {
@@ -81,10 +73,7 @@ function NewArrival() {
                     {item.price.toLocaleString()}
                   </p>
                 </div>
-                </div>
-                
-
-
+              </div>
             );
           })
         )}
