@@ -78,7 +78,10 @@ function NewArrival() {
                     {item.price.toLocaleString()}
                   </p>
                 </div>
-              </div>
+                </div>
+                
+
+                
             );
           })
         )}
