@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 
 
 import { product } from "../../utils/files";
-import Loader from "./Spinner";
+
 import Spinner from "./Spinner";
 
 
@@ -26,7 +26,7 @@ function NewArrival() {
     setTimeout(() => {
       const initialProducts = [...product];
       setProducts(initialProducts);
-    }, 9000);
+    }, 3000);
   }, []);
 
   return (
