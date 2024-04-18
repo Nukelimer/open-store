@@ -1,12 +1,12 @@
-import { useEffect } from "react";
+import { useEffect } from 'react'
 
-export default function Spinner() {
-  useEffect(() => {
-    async function getLoader() {
-      const { square } = await import("ldrs");
-      square.register();
-    }
-    getLoader();
-  }, []);
-  return <l-square speed="1.3"  color="black" size="95 "></l-square>;
-}
+export default function Loader() {
+    useEffect(() => {
+      async function getLoader() {
+        const { square } = await import('ldrs')
+        square.register()
+      }
+      getLoader()
+    }, [])
+    return <l-square color="black" stroke='3'  size='100' ></l-square>
+  }

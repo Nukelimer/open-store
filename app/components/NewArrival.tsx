@@ -26,7 +26,7 @@ function NewArrival() {
     setTimeout(() => {
       const initialProducts = [...product];
       setProducts(initialProducts);
-    }, 3000);
+    }, 300);
   }, []);
 
   return (
