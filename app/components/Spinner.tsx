@@ -5,7 +5,7 @@ import { square } from 'ldrs'
 
 declare namespace JSX {
     interface IntrinsicElements {
-      "atom-spinner": any;
+      "l-square": any;
     }
   }
   
