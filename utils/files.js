@@ -4,11 +4,13 @@ export const product = [
 
     item: "Male Crew Neck Tee",
 
+    category: "handless",
+
     gender: "male",
 
     src: "/images/Male Crew Neck Tee.jpg",
 
-    price: 11603.8
+    price: 11603.8,
   },
 
   {
@@ -16,11 +18,13 @@ export const product = [
 
     item: "Male Muscle Shirt",
 
+    category: "handless",
+
     gender: "male",
 
     src: "/images/Male Muscle Shirt.jpg",
 
-    price:  16733.5,
+    price: 16733.5,
   },
 
   {
@@ -28,11 +32,13 @@ export const product = [
 
     item: "Male Performance Tee",
 
+    category: "handless",
+
     gender: "male",
 
     src: "/images/Male Performance Tee.jpg",
 
-    price:  38321.4,
+    price: 38321.4,
   },
 
   {
@@ -40,11 +46,13 @@ export const product = [
 
     item: "Male Tank Top",
 
+    category: "handless",
+
     gender: "male",
 
     src: "/images/Male Tank Top.jpg",
 
-    price:  11460.1,
+    price: 11460.1,
   },
 
   {
@@ -52,11 +60,13 @@ export const product = [
 
     item: "Male V-Neck Tee",
 
+    category: "handless",
+
     gender: "male",
 
     src: "/images/Male V-Neck Tee.jpg",
 
-    price:  4058.4
+    price: 4058.4,
   },
 
   {
@@ -64,11 +74,13 @@ export const product = [
 
     item: "Male Athletic Shorts",
 
+    category: "shortnicker",
+
     gender: "male",
 
     src: "/images/Male Athletic Shorts.jpg",
 
-    price:  30882.1,
+    price: 30882.1,
   },
 
   {
@@ -76,11 +88,13 @@ export const product = [
 
     item: "Male Basketball Shorts",
 
+    category: "shortnicker",
+
     gender: "male",
 
     src: "/images/Male Basketball Shorts.jpg",
 
-    price:  30387.8,
+    price: 30387.8,
   },
 
   {
@@ -88,11 +102,13 @@ export const product = [
 
     item: "Male Bermuda Shorts",
 
+    category: "shortnicker",
+
     gender: "male",
 
     src: "/images/Male Bermuda Shorts.jpg",
 
-    price:  7939.7
+    price: 7939.7,
   },
 
   {
@@ -100,11 +116,13 @@ export const product = [
 
     item: "Male Board Shorts",
 
+    category: "shortnicker",
+
     gender: "male",
 
     src: "/images/Male Board Shorts.jpg",
 
-    price:  21866.0,
+    price: 21866.0,
   },
 
   {
@@ -112,11 +130,13 @@ export const product = [
 
     item: "Male Cargo Shorts",
 
+    category: "shortnicker",
+
     gender: "male",
 
     src: "/images/Male Cargo Shorts.jpg",
 
-    price:  6126.9
+    price: 6126.9,
   },
 
   {
@@ -124,11 +144,13 @@ export const product = [
 
     item: "Male Cargo Swim Shorts",
 
+    category: "shortnicker",
+
     gender: "male",
 
     src: "/images/Male Cargo Swim Shorts.jpg",
 
-    price:  26968.5,
+    price: 26968.5,
   },
 
   {
@@ -136,11 +158,13 @@ export const product = [
 
     item: "Male Chino Shorts",
 
+    category: "shortnicker",
+
     gender: "male",
 
     src: "/images/Male Chino Shorts.jpg",
 
-    price:  8289.4
+    price: 8289.4,
   },
 
   {
@@ -148,11 +172,13 @@ export const product = [
 
     item: "Male Denim Shorts",
 
+    category: "shortnicker",
+
     gender: "male",
 
     src: "/images/Male Denim Shorts.jpg",
 
-    price:  22196.6,
+    price: 22196.6,
   },
 
   {
@@ -160,11 +186,13 @@ export const product = [
 
     item: "Male Golf Shorts",
 
+    category: "shortnicker",
+
     gender: "male",
 
     src: "/images/Male Golf Shorts.jpg",
 
-    price:  9102.9
+    price: 9102.9,
   },
 
   {
@@ -172,11 +200,13 @@ export const product = [
 
     item: "Male Running Shorts",
 
+    category: "shortnicker",
+
     gender: "male",
 
     src: "/images/Male Running Shorts.jpg",
 
-    price:  21693.7,
+    price: 21693.7,
   },
 
   {
@@ -184,11 +214,13 @@ export const product = [
 
     item: "Male Button-Up Shirt",
 
+    category: "stripes-sleeve",
+
     gender: "male",
 
     src: "/images/Male Button-Up Shirt.jpg",
 
-    price:  46712.2,
+    price: 46712.2,
   },
 
   {
@@ -196,11 +228,13 @@ export const product = [
 
     item: "Male Chambray Shirt",
 
+    category: "stripes-sleeve",
+
     gender: "male",
 
     src: "/images/Male Chambray Shirt.jpg",
 
-    price:  41641.8,
+    price: 41641.8,
   },
 
   {
@@ -208,11 +242,13 @@ export const product = [
 
     item: "Male Dress Shirt",
 
+    category: "stripes-sleeve",
+
     gender: "male",
 
     src: "/images/Male Dress Shirt.jpg",
 
-    price:  5389.2
+    price: 5389.2,
   },
 
   {
@@ -220,11 +256,13 @@ export const product = [
 
     item: "Male Flannel Shirt",
 
+    category: "stripes-sleeve",
+
     gender: "male",
 
     src: "/images/Male Flannel Shirt.jpg",
 
-    price:  47068.6,
+    price: 47068.6,
   },
 
   {
@@ -232,11 +270,13 @@ export const product = [
 
     item: "Male Oxford Shirt",
 
+    category: "stripes-sleeve",
+
     gender: "male",
 
     src: "/images/Male Oxford Shirt.jpg",
 
-    price:  46611.2,
+    price: 46611.2,
   },
 
   {
@@ -244,11 +284,13 @@ export const product = [
 
     item: "Male Pullover Shirt",
 
+    category: "v-neck",
+
     gender: "male",
 
     src: "/images/Male Pullover Shirt.jpg",
 
-    price:  44917.7,
+    price: 44917.7,
   },
 
   {
@@ -256,11 +298,13 @@ export const product = [
 
     item: "Male Rugby Shirt",
 
+    category: "stripes-sleeve",
+
     gender: "male",
 
     src: "/images/Male Rugby Shirt.jpg",
 
-    price:  32040.9,
+    price: 32040.9,
   },
 
   {
@@ -268,11 +312,13 @@ export const product = [
 
     item: "Male Cargo Pants",
 
+    category: "trouser",
+
     gender: "male",
 
     src: "/images/Male Cargo Pants.jpg",
 
-    price:  29631.4,
+    price: 29631.4,
   },
 
   {
@@ -280,11 +326,13 @@ export const product = [
 
     item: "Male Chinos",
 
+    category: "trouser",
+
     gender: "male",
 
     src: "/images/Male Chinos.jpg",
 
-    price:  27681.6,
+    price: 27681.6,
   },
 
   {
@@ -292,11 +340,13 @@ export const product = [
 
     item: "Male Corduroy Pants",
 
+    category: "trouser",
+
     gender: "male",
 
     src: "/images/Male Corduroy Pants.jpg",
 
-    price:  16623.0,
+    price: 16623.0,
   },
 
   {
@@ -304,11 +354,13 @@ export const product = [
 
     item: "Male Dress Pants",
 
+    category: "trouser",
+
     gender: "male",
 
     src: "/images/Male Dress Pants.jpg",
 
-    price:  47133.2,
+    price: 47133.2,
   },
 
   {
@@ -316,11 +368,13 @@ export const product = [
 
     item: "Male Jeans",
 
+    category: "trouser",
+
     gender: "male",
 
     src: "/images/Male Jeans.jpg",
 
-    price:  36414.9,
+    price: 36414.9,
   },
 
   {
@@ -328,11 +382,13 @@ export const product = [
 
     item: "Male Joggers",
 
+    category: "trouser",
+
     gender: "male",
 
     src: "/images/Male Joggers.jpg",
 
-    price:  46081.9,
+    price: 46081.9,
   },
 
   {
@@ -340,11 +396,13 @@ export const product = [
 
     item: "Male Khakis",
 
+    category: "trouser",
+
     gender: "male",
 
     src: "/images/Male Khakis.jpg",
 
-    price:  3091.4
+    price: 3091.4,
   },
 
   {
@@ -354,9 +412,11 @@ export const product = [
 
     gender: "male",
 
+    category: "trouser",
+
     src: "/images/Male Slim Fit Trousers.jpg",
 
-    price:  17017.5,
+    price: 17017.5,
   },
 
   {
@@ -364,11 +424,13 @@ export const product = [
 
     item: "Male Sweatpants",
 
+    category: "trouser",
+
     gender: "male",
 
     src: "/images/Male Sweatpants.jpg",
 
-    price:  48380.7,
+    price: 48380.7,
   },
 
   {
@@ -376,155 +438,169 @@ export const product = [
 
     item: "Male Track Pants",
 
+    category: "trouser",
+
     gender: "male",
 
     src: "/images/Male Track Pants.jpg",
 
-    price:  2779.0
+    price: 2779.0,
   },
 
   {
     id: "41Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)fca074d8-d57a-4a5c-ba67-9093381973a60.9644762308763766",
 
     item: "Male Classic Tee",
+    category: "polo",
 
     gender: "male",
 
     src: "/images/Male Classic Tee.jpg",
 
-    price:  4778.7
+    price: 4778.7,
   },
 
   {
     id: "45Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)da7e310d-aef1-43dc-af61-78e0f7cabc440.033732283805864904",
 
     item: "Male Muscle Tee",
+    category: "polo",
 
     gender: "male",
 
     src: "/images/Male Muscle Tee.jpg",
 
-    price:  36063.9,
+    price: 36063.9,
   },
 
   {
     id: "48Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)d9940b32-a144-4434-8f96-24a81c3862bd0.6546392809464237",
 
     item: "Male Slim Fit Tee",
+    category: "polo",
 
     gender: "male",
 
     src: "/images/Male Slim Fit Tee.jpg",
 
-    price:  15204.8,
+    price: 15204.8,
   },
 
   {
     id: "50Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)9ad05e4b-2a4b-40a9-8bc6-3dbee93ca9070.196471033067398",
 
     item: "Male V-neck Shirt",
+    category: "polo",
 
     gender: "male",
 
     src: "/images/Male V-neck Shirt.jpg",
 
-    price:  11435.3,
+    price: 11435.3,
   },
 
   {
     id: "63Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)adb51117-1f7c-4c2b-b319-56bca93c41ad0.010707439494493043",
 
     item: "Asics Gel-Lyte III",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/Asics Gel-Lyte III.jpg",
 
-    price:  49685.9,
+    price: 49685.9,
   },
 
   {
     id: "64Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)c0037d48-acb9-46f2-a364-c9639d3f4f7a0.2932358405446469",
 
     item: "Birkenstock Arizona",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/Birkenstock Arizona.jpg",
 
-    price:  34187.2,
+    price: 34187.2,
   },
 
   {
     id: "65Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)3dfc4853-7e20-4213-9b6f-866168e668430.04536703331030112",
 
     item: "Birkenstock Gizeh",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/Birkenstock Gizeh.jpg",
 
-    price:  18466.1,
+    price: 18466.1,
   },
 
   {
     id: "66Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)abb66aef-b667-4d5c-8a2a-3bb43b606ab30.9889895606955199",
 
     item: "ECCO Yucatan",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/ECCO Yucatan.jpg",
 
-    price:  6302.6
+    price: 6302.6,
   },
 
   {
     id: "67Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)495df01f-ced8-4d48-96d7-228848634ba30.3012658039460654",
 
     item: "KEEN Clearwater CNX",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/KEEN Clearwater CNX.jpg",
 
-    price:  32247.3,
+    price: 32247.3,
   },
 
   {
     id: "68Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)99ed232f-5470-435e-a5ef-8d48936260e40.995247877656557",
 
     item: "Keen Newport H2",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/Keen Newport H2.jpg",
 
-    price:  42537.7,
+    price: 42537.7,
   },
 
   {
     id: "69Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)4bddf610-ee45-48fd-8f03-01b8a897124e0.7992522117215426",
 
     item: "Keen Uneek",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/Keen Uneek.jpg",
 
-    price:  31670.6,
+    price: 31670.6,
   },
 
   {
     id: "70Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)8ad3c259-d7e3-4e78-8943-5856ab00e3e60.19493508511373725",
 
     item: "KEEN Whisper",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/KEEN Whisper.jpg",
 
-    price:  46487.9,
+    price: 46487.9,
   },
 
   {
@@ -536,103 +612,112 @@ export const product = [
 
     src: "/images/Merrell All Out Blaze Sieve.jpg",
 
-    price:  26482.9,
+    price: 26482.9,
   },
 
   {
     id: "72Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)e0604abd-c54a-48c6-94dd-a29209e393500.7500365713365953",
 
     item: "Merrell Terran Lattice II",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/Merrell Terran Lattice II.jpg",
 
-    price:  6215.3
+    price: 6215.3,
   },
 
   {
     id: "73Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)79ef5b52-f480-4b8c-81a9-e93b6594dfb60.9973365100716263",
 
     item: "On Cloud",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/On Cloud.jpg",
 
-    price:  10991.7,
+    price: 10991.7,
   },
 
   {
     id: "74Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)0c393c7d-88a3-4ccf-84c0-9cc4ea3459900.11992134241178776",
 
     item: "Teva Hurricane XLT",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/Teva Hurricane XLT.jpg",
 
-    price:  23977.1,
+    price: 23977.1,
   },
 
   {
     id: "75Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)0a2d4a5a-3110-41c6-a531-76ee8c94438c0.3311065086769376",
 
     item: "Teva Hurricane XLT2",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/Teva Hurricane XLT2.jpg",
 
-    price:  31211.7,
+    price: 31211.7,
   },
 
   {
     id: "76Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)e5315813-92b4-4c40-8516-0ad8ef9a312b0.26359034005646764",
 
     item: "Teva Original Universal",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/Teva Original Universal.jpg",
 
-    price:  21273.2,
+    price: 21273.2,
   },
 
   {
     id: "77Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)0193f3a2-c042-47a4-8448-406c754658f60.6398154145339834",
 
     item: "Teva Terra Fi 5 Universal",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/Teva Terra Fi 5 Universal.jpg",
 
-    price:  18162.4,
+    price: 18162.4,
   },
 
   {
     id: "78Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)d07d1d02-9370-4d1e-9205-b7bfdf63880e0.830104852186035",
 
     item: "Teva Terra Fi Lite",
+    category: "sandal",
 
     gender: "male",
 
     src: "/images/Teva Terra Fi Lite.jpg",
 
-    price:  38819.8,
+    price: 38819.8,
   },
 
   {
     id: "118Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)b9a858e0-2d05-4dbe-bf99-c6fcb77b31730.4027862340614803",
 
-    item: "Adidas Camisole",
+    item: "Adidas Camp Top",
 
-    gender: "male",
+    category: "f-top",
+
+    gender: "female",
 
     src: "/images/Adidas Camisole.jpg",
 
-    price:  7890.2
+    price: 7890.2,
   },
 
   {
@@ -640,11 +725,13 @@ export const product = [
 
     item: "Birkenstock Racerback Tank",
 
-    gender: "male",
+    category: "f-top",
+
+    gender: "female",
 
     src: "/images/Birkenstock Racerback Tank.jpg",
 
-    price:  35552.2,
+    price: 35552.2,
   },
 
   {
@@ -652,11 +739,13 @@ export const product = [
 
     item: "Crocs Muscle Tank",
 
-    gender: "male",
+    category: "f-top",
+
+    gender: "female",
 
     src: "/images/Crocs Muscle Tank.jpg",
 
-    price:  28764.0,
+    price: 28764.0,
   },
 
   {
@@ -664,11 +753,11 @@ export const product = [
 
     item: "Havaianas Tunic Tank",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Havaianas Tunic Tank.jpg",
 
-    price:  21692.1,
+    price: 21692.1,
   },
 
   {
@@ -676,11 +765,13 @@ export const product = [
 
     item: "Nike Tank Top",
 
-    gender: "male",
+    category: "f-top",
+
+    gender: "female",
 
     src: "/images/Nike Tank Top.jpg",
 
-    price:  9708.9
+    price: 9708.9,
   },
 
   {
@@ -688,11 +779,13 @@ export const product = [
 
     item: "Puma Crop Top",
 
-    gender: "male",
+    category: "f-top",
+
+    gender: "female",
 
     src: "/images/Puma Crop Top.jpg",
 
-    price:  27161.9,
+    price: 27161.9,
   },
 
   {
@@ -700,11 +793,13 @@ export const product = [
 
     item: "Reebok Halter Top",
 
-    gender: "male",
+    category: "f-top",
+
+    gender: "female",
 
     src: "/images/Reebok Halter Top.jpg",
 
-    price:  31261.2,
+    price: 31261.2,
   },
 
   {
@@ -712,11 +807,13 @@ export const product = [
 
     item: "Skechers Spaghetti Strap Top",
 
-    gender: "male",
+    category: "f-top",
+
+    gender: "female",
 
     src: "/images/Skechers Spaghetti Strap Top.jpg",
 
-    price:  12930.2,
+    price: 12930.2,
   },
 
   {
@@ -724,11 +821,13 @@ export const product = [
 
     item: "Teva Tube Top",
 
-    gender: "male",
+    category: "f-top",
+
+    gender: "female",
 
     src: "/images/Teva Tube Top.jpg",
 
-    price:  46684.9,
+    price: 46684.9,
   },
 
   {
@@ -736,23 +835,26 @@ export const product = [
 
     item: "UGG Bandeau Top",
 
-    gender: "male",
+    category: "f-top",
+
+    gender: "female",
 
     src: "/images/UGG Bandeau Top.jpg",
 
-    price:  36691.5,
+    price: 36691.5,
   },
 
   {
     id: "128Wed Apr 17 2024 01:33:41 GMT+0100 (West Africa Standard Time)eaf8506a-0d55-47b2-9e20-25f8f4c6a6fe0.6420263877183976",
 
-    item: "Adidas Joggers",
+    item: "Adidas shorts",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Adidas Joggers.jpg",
 
-    price:  34670.2,
+    price: 34670.2,
+    category: "f-short",
   },
 
   {
@@ -760,11 +862,12 @@ export const product = [
 
     item: "Calvin Klein Jeans",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Calvin Klein Jeans.jpg",
 
-    price:  24397.5,
+    price: 24397.5,
+    category: "f-short",
   },
 
   {
@@ -772,11 +875,12 @@ export const product = [
 
     item: "Levis Skinny Jeans",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Levis Skinny Jeans.jpg",
 
-    price:  50003.6,
+    price: 50003.6,
+    category: "f-short",
   },
 
   {
@@ -784,11 +888,12 @@ export const product = [
 
     item: "Lululemon Yoga Pants",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Lululemon Yoga Pants.jpg",
 
-    price:  40249.3,
+    price: 40249.3,
+    category: "f-short",
   },
 
   {
@@ -796,11 +901,12 @@ export const product = [
 
     item: "Nike Leggings",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Nike Leggings.jpg",
 
-    price:  48021.8,
+    price: 48021.8,
+    category: "f-short",
   },
 
   {
@@ -808,11 +914,12 @@ export const product = [
 
     item: "Puma Sweatpants",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Puma Sweatpants.jpg",
 
-    price:  35619.4,
+    price: 35619.4,
+    category: "f-short",
   },
 
   {
@@ -820,11 +927,12 @@ export const product = [
 
     item: "Reebok Yoga Pants",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Reebok Yoga Pants.jpg",
 
-    price:  46789.8,
+    price: 46789.8,
+    category: "f-short",
   },
 
   {
@@ -832,11 +940,12 @@ export const product = [
 
     item: "Skechers Athletic Leggings",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Skechers Athletic Leggings.jpg",
 
-    price:  15442.8,
+    price: 15442.8,
+    category: "f-short",
   },
 
   {
@@ -844,11 +953,12 @@ export const product = [
 
     item: "Under Armour Compression Tights",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Under Armour Compression Tights.jpg",
 
-    price:  37811.0,
+    price: 37811.0,
+    category: "f-short",
   },
 
   {
@@ -856,11 +966,12 @@ export const product = [
 
     item: "Victorias Secret Leggings",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Victorias Secret Leggings.jpg",
 
-    price:  28877.1,
+    price: 28877.1,
+    category: "f-short",
   },
 
   {
@@ -868,11 +979,12 @@ export const product = [
 
     item: "Adidas Mini Skirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Adidas Mini Skirt.jpg",
 
-    price:  26917.1,
+    price: 26917.1,
+    category: "f-skirt",
   },
 
   {
@@ -880,11 +992,12 @@ export const product = [
 
     item: "Birkenstock Flared Skirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Birkenstock Flared Skirt.jpg",
 
-    price:  9650.2
+    price: 9650.2,
+    category: "f-skirt",
   },
 
   {
@@ -892,11 +1005,12 @@ export const product = [
 
     item: "Crocs Maxi Skirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Crocs Maxi Skirt.jpg",
 
-    price:  50319.6,
+    price: 50319.6,
+    category: "f-skirt",
   },
 
   {
@@ -904,11 +1018,12 @@ export const product = [
 
     item: "Havaianas Skater Skirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Havaianas Skater Skirt.jpg",
 
-    price:  15418.2,
+    price: 15418.2,
+    category: "f-skirt",
   },
 
   {
@@ -916,11 +1031,12 @@ export const product = [
 
     item: "Nike A-line Skirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Nike A-line Skirt.jpg",
 
-    price:  50223.0,
+    price: 50223.0,
+    category: "f-skirt",
   },
 
   {
@@ -928,11 +1044,12 @@ export const product = [
 
     item: "Puma Pleated Skirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Puma Pleated Skirt.jpg",
 
-    price:  25257.1,
+    price: 25257.1,
+    category: "f-skirt",
   },
 
   {
@@ -940,11 +1057,12 @@ export const product = [
 
     item: "Reebok Wrap Skirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Reebok Wrap Skirt.jpg",
 
-    price:  27575.4,
+    price: 27575.4,
+    category: "f-skirt",
   },
 
   {
@@ -952,11 +1070,12 @@ export const product = [
 
     item: "Skechers Midi Skirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Skechers Midi Skirt.jpg",
 
-    price:  48271.8,
+    price: 48271.8,
+    category: "f-skirt",
   },
 
   {
@@ -964,11 +1083,12 @@ export const product = [
 
     item: "Teva Pencil Skirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Teva Pencil Skirt.jpg",
 
-    price:  15853.7,
+    price: 15853.7,
+    category: "f-skirt",
   },
 
   {
@@ -976,11 +1096,12 @@ export const product = [
 
     item: "UGG Denim Skirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/UGG Denim Skirt.jpg",
 
-    price:  40506.7,
+    price: 40506.7,
+    category: "f-skirt",
   },
 
   {
@@ -988,11 +1109,12 @@ export const product = [
 
     item: "Bohemian Ruffle Dress",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Bohemian Ruffle Dress.jpg",
 
-    price:  8244.4
+    price: 8244.4,
+    category: "f-gown",
   },
 
   {
@@ -1000,11 +1122,12 @@ export const product = [
 
     item: "Chic Off-Shoulder Gown",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Chic Off-Shoulder Gown.jpg",
 
-    price:  18215.4,
+    price: 18215.4,
+    category: "f-gown",
   },
 
   {
@@ -1012,11 +1135,12 @@ export const product = [
 
     item: "Classic A-Line Dress",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Classic A-Line Dress.jpg",
 
-    price:  10740.8,
+    price: 10740.8,
+    category: "f-gown",
   },
 
   {
@@ -1024,11 +1148,12 @@ export const product = [
 
     item: "Elegant Lace Gown",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Elegant Lace Gown.jpg",
 
-    price:  45905.4,
+    price: 45905.4,
+    category: "f-gown",
   },
 
   {
@@ -1036,11 +1161,12 @@ export const product = [
 
     item: "Flowy Chiffon Wrap Dress",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Flowy Chiffon Wrap Dress.jpg",
 
-    price:  31318.8,
+    price: 31318.8,
+    category: "f-gown",
   },
 
   {
@@ -1048,11 +1174,12 @@ export const product = [
 
     item: "Glamorous Sequin Mermaid Dress",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Glamorous Sequin Mermaid Dress.jpg",
 
-    price:  21268.6,
+    price: 21268.6,
+    category: "f-gown",
   },
 
   {
@@ -1060,11 +1187,12 @@ export const product = [
 
     item: "Romantic Tulle Ball Gown",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Romantic Tulle Ball Gown.jpg",
 
-    price:  18582.7,
+    price: 18582.7,
+    category: "f-gown",
   },
 
   {
@@ -1072,11 +1200,12 @@ export const product = [
 
     item: "Sleek Satin Evening Gown",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Sleek Satin Evening Gown.jpg",
 
-    price:  13727.0,
+    price: 13727.0,
+    category: "f-gown",
   },
 
   {
@@ -1084,11 +1213,12 @@ export const product = [
 
     item: "Sophisticated Velvet Gown",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Sophisticated Velvet Gown.jpg",
 
-    price:  23726.6,
+    price: 23726.6,
+    category: "f-gown",
   },
 
   {
@@ -1096,11 +1226,12 @@ export const product = [
 
     item: "Vintage Floral Maxi Dress",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Vintage Floral Maxi Dress.jpg",
 
-    price:  7329.0
+    price: 7329.0,
+    category: "f-gown",
   },
 
   {
@@ -1108,11 +1239,13 @@ export const product = [
 
     item: "Crew Neck T-Shirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Crew Neck T-Shirt.jpg",
 
-    price:  6803.4
+    price: 6803.4,
+
+    category: "f-polo",
   },
 
   {
@@ -1120,11 +1253,13 @@ export const product = [
 
     item: "Crop Top",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Crop Top.jpg",
 
-    price:  2265.6
+    price: 2265.6,
+
+    category: "f-polo",
   },
 
   {
@@ -1132,11 +1267,13 @@ export const product = [
 
     item: "Graphic Tee",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Graphic Tee.jpg",
 
-    price:  41027.7,
+    price: 41027.7,
+
+    category: "f-polo",
   },
 
   {
@@ -1144,11 +1281,13 @@ export const product = [
 
     item: "Henley Shirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Henley Shirt.jpg",
 
-    price:  12335.7,
+    price: 12335.7,
+
+    category: "f-polo",
   },
 
   {
@@ -1156,11 +1295,13 @@ export const product = [
 
     item: "Long Sleeve T-Shirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Long Sleeve T-Shirt.jpg",
 
-    price:  10277.2,
+    price: 10277.2,
+
+    category: "f-polo",
   },
 
   {
@@ -1168,11 +1309,13 @@ export const product = [
 
     item: "Off-Shoulder T-Shirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Off-Shoulder T-Shirt.jpg",
 
-    price:  3713.7
+    price: 3713.7,
+
+    category: "f-polo",
   },
 
   {
@@ -1180,11 +1323,13 @@ export const product = [
 
     item: "Polo Shirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Polo Shirt.jpg",
 
-    price:  18205.7,
+    price: 18205.7,
+
+    category: "f-polo",
   },
 
   {
@@ -1192,10 +1337,12 @@ export const product = [
 
     item: "Ringer T-Shirt",
 
-    gender: "male",
+    gender: "female",
 
     src: "/images/Ringer T-Shirt.jpg",
 
-    price:  46239.0,
+    price: 46239.0,
+
+    category: "f-polo",
   },
 ];

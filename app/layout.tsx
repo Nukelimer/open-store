@@ -20,8 +20,8 @@ export default function RootLayout({
       <body
         className={`${manrope.className} flex flex-col items-center h-screen bg-primary mx-auto `}>
         <main className="w-screen bg-primary ">
-          <div className="max-w-[1400px] mx-auto">
-            <NavBar />
+          <div className="max-w-[1400px] w-full mx-auto">
+          
 
             {children}
           </div>

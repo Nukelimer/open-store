@@ -11,6 +11,8 @@ function Hero() {
           className="relative bottom-32 pointer-events-none "
           src={"/images/model hero.jpg"}
           alt="image"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          priority
           style={{
             objectFit: "cover",
             objectPosition: "center top",

@@ -8,5 +8,5 @@ export default function Loader() {
       }
       getLoader()
     }, [])
-    return <l-square color="black" stroke='3'  size='100' ></l-square>
+    return <l-square color="black" stroke='3' speed='0.7'  size='60'  ></l-square>
   }
