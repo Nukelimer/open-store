@@ -22,6 +22,8 @@ function NavBar({
   };
   const inputRef = useRef<HTMLInputElement | null>(null);
 
+  console.log(cartNumber)
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // setSearchQuery("");
@@ -69,7 +71,9 @@ function NavBar({
               className={` text-center absolute md:right-auto lg:right-auto   ${
                 cartNumber > 11 ? "ml-[7px] " : "ml-[7px]"
               } bottom-12`}>
-              {cartNumber}
+              {cartNumber < 2 ? undefined : cartNumber }
+              
+             
             </p>
             <BiCart size={40} />
           </div>

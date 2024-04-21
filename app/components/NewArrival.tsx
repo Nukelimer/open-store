@@ -33,7 +33,7 @@ function NewArrival({
   const [femaleCategory, setFemaleCategory] = useState(false);
   const [maleCategory, setMaleCategory] = useState(false);
   const [searchProducts, setSearchProducts] = useState<Product[]>([]);
-
+  let number = 2;
   useEffect(() => {
     const filtered = products.filter((product) =>
       product.item.toLowerCase().includes(searchQuery.toLowerCase())
@@ -308,11 +308,11 @@ function NewArrival({
                   <div
                     className=" flex self-end cursor-pointer"
                     onClick={() => {
-                      setCartNumber(cartNumber + 1);
+                      setCartNumber((a) => a + 1);
 
                       toast.success(
                         `${cartNumber} ${
-                          cartNumber < 2 ? "item" : "items"
+                          cartNumber  <= 1 ? "item" : "items"
                         } has been added.`,
                         {
                           position: "top-center",
@@ -321,7 +321,6 @@ function NewArrival({
                           closeOnClick: true,
                           pauseOnHover: true,
                           draggable: true,
-
                           theme: "light",
                         }
                       );
