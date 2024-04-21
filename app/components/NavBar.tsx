@@ -21,6 +21,12 @@ function NavBar({
     setSearchQuery(e.target.value);
   };
   const inputRef = useRef<HTMLInputElement | null>(null);
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    // setSearchQuery("");
+    setSearchCategory(false);
+  };
   return (
     <div className="">
       <nav className=" flex justify-between py-6 px-4 bg-secondary fixed z-20 w-screen max-w-[1400px] ">
@@ -72,10 +78,8 @@ function NavBar({
       {searchCategory && (
         <div className="z-50 flex justify-end items-end lg:right-auto w-screen top-20 fixed text-xl max-w-[1400px] ">
           <form
-            onSubmit={(e) => {
-              e.preventDefault();
-            }}
-            className="flex flex-col w-1/4 bg-white  py-4 px-4 ">
+            onSubmit={handleSubmit}
+            className="flex flex-col w-[200px] lg:w-1/3 bg-white  py-4 px-4 ">
             <label htmlFor="search" className="text-center text-nowrap">
               Search Product
             </label>

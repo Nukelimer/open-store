@@ -297,59 +297,59 @@ function NewArrival({
           <Spinner />
         </div>
       ) : searchQuery.length > 3 ? (
-        <div className="pt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          <h2 className=" font-bold">Search Result:</h2>
-          {searchProducts.map((product) => (
-            <>
-              <p key={product.id}>{product.item}</p>
-
-              <div
-                className=" flex flex-col  p-4 shadow-md border border-neutral-700-600 rounded-sm "
-                key={product.id}>
+        <>
+          <h2 className=" font-bold my-6">Search Result:</h2>
+          <div className="pt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            {searchProducts.map((product) => (
+              <>
                 <div
-                  className=" flex self-end cursor-pointer"
-                  onClick={() => {
-                    setCartNumber(cartNumber + 1);
+                  className=" flex flex-col  p-4 shadow-md border border-neutral-700-600 rounded-sm "
+                  key={product.id}>
+                  <div
+                    className=" flex self-end cursor-pointer"
+                    onClick={() => {
+                      setCartNumber(cartNumber + 1);
 
-                    toast.success(
-                      `${cartNumber} ${
-                        cartNumber < 2 ? "item" : "items"
-                      } has been added.`,
-                      {
-                        position: "top-center",
-                        autoClose: 5000,
-                        hideProgressBar: true,
-                        closeOnClick: true,
-                        pauseOnHover: true,
-                        draggable: true,
+                      toast.success(
+                        `${cartNumber} ${
+                          cartNumber < 2 ? "item" : "items"
+                        } has been added.`,
+                        {
+                          position: "top-center",
+                          autoClose: 5000,
+                          hideProgressBar: true,
+                          closeOnClick: true,
+                          pauseOnHover: true,
+                          draggable: true,
 
-                        theme: "light",
-                      }
-                    );
-                  }}>
-                  <BiCart size={40} />
+                          theme: "light",
+                        }
+                      );
+                    }}>
+                    <BiCart size={40} />
+                  </div>
+                  <Image
+                    className="hover:opacity-50 hover:transition-all hover:delay-200"
+                    width={200}
+                    height={200}
+                    alt="Product Image"
+                    src={product.src}
+                    style={{
+                      width: "auto",
+                      height: "auto",
+                    }}
+                  />
+                  <div className=" flex justify-between  hover:opacity-50 hover:transition-all hover:delay-200 text-l font-semibold">
+                    <p>{product.item}</p>
+                    <p className="text-green-500">
+                      {`₦${product.price.toLocaleString()}`}
+                    </p>
+                  </div>
                 </div>
-                <Image
-                  className="hover:opacity-50 hover:transition-all hover:delay-200"
-                  width={200}
-                  height={200}
-                  alt="Product Image"
-                  src={product.src}
-                  style={{
-                    width: "auto",
-                    height: "auto",
-                  }}
-                />
-                <div className=" flex justify-between  hover:opacity-50 hover:transition-all hover:delay-200 text-l font-semibold">
-                  <p>{product.item}</p>
-                  <p className="text-green-500">
-                    {`₦${product.price.toLocaleString()}`}
-                  </p>
-                </div>
-              </div>
-            </>
-          ))}
-        </div>
+              </>
+            ))}
+          </div>
+        </>
       ) : (
         <div className=" pt-8  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {filteredProducts?.map((item) => {
