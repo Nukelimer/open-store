@@ -311,8 +311,8 @@ function NewArrival({
                       setCartNumber((a) => a + 1);
 
                       toast.success(
-                        `${cartNumber} ${
-                          cartNumber  <= 1 ? "item" : "items"
+                        ` ${
+                          cartNumber  < 2 ? "item" : "items"
                         } has been added.`,
                         {
                           position: "top-center",

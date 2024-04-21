@@ -22,7 +22,6 @@ function NavBar({
   };
   const inputRef = useRef<HTMLInputElement | null>(null);
 
-  console.log(cartNumber)
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -71,7 +70,7 @@ function NavBar({
               className={` text-center absolute md:right-auto lg:right-auto   ${
                 cartNumber > 11 ? "ml-[7px] " : "ml-[7px]"
               } bottom-12`}>
-              {cartNumber < 2 ? undefined : cartNumber }
+              {cartNumber < 1 ? undefined : cartNumber }
               
              
             </p>
